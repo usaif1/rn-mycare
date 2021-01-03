@@ -14,6 +14,9 @@ export const styles = StyleSheet.create({
   wd65: {
     width: 65,
   },
+  wd135: {
+    width: 140,
+  },
 
   //paddings
   pd_r_10: {
@@ -75,6 +78,15 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 
+  //text align
+  textAlignCenter: {
+    textAlign: 'center',
+  },
+
+  textAlignLeft: {
+    textAlign: 'left',
+  },
+
   //line spacing
   lsp_half: {
     letterSpacing: 0.5,
@@ -93,6 +105,10 @@ export const styles = StyleSheet.create({
     marginTop: 15,
   },
 
+  mt_25: {
+    marginTop: 25,
+  },
+
   mb_10: {
     marginBottom: 10,
   },
@@ -108,6 +124,10 @@ export const styles = StyleSheet.create({
 
   bgLightCyan: {
     backgroundColor: '#dcf4f4',
+  },
+
+  bgWhite: {
+    backgroundColor: '#ffffff',
   },
 
   //flex direction
@@ -139,8 +159,20 @@ export const styles = StyleSheet.create({
     borderBottomWidth: 1,
   },
 
+  border_width_1: {
+    borderWidth: 1,
+  },
+
+  //border color
+  border_purple: {
+    borderColor: '#6155a3',
+  },
+
   //border radius
   br_8: {
     borderRadius: 8,
+  },
+  br_30: {
+    borderRadius: 30,
   },
 });

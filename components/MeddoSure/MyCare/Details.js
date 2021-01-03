@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text, View} from 'react-native';
+import {Button} from 'react-native-paper';
 
 //imports
 import {styles} from '../../Styles';
@@ -78,11 +79,58 @@ const Details = () => {
     </View>
   );
 
+  const buttons = (
+    <View style={[styles.align_center, styles.mt_25]}>
+      <View style={[styles.fd_row, styles.jc_spacebetween, styles.wd300]}>
+        <Button
+          mode="outlined"
+          contentStyle={{height: 30, justifyContent: 'flex-start'}}
+          onPress={() => console.log('button pressed')}
+          style={[
+            styles.border_purple,
+            styles.br_30,
+            styles.border_width_1,
+            styles.wd135,
+          ]}>
+          <Text
+            style={[
+              styles.ft_weight_bold,
+              styles.ft_color_purple,
+              styles.ftSize12,
+            ]}>
+            Book Lab Test
+          </Text>
+        </Button>
+        <Button
+          mode="outlined"
+          onPress={() => console.log('button pressed')}
+          contentStyle={{height: 30, justifyContent: 'flex-start'}}
+          style={[
+            styles.border_purple,
+            styles.br_30,
+            styles.border_width_1,
+            styles.wd135,
+          ]}>
+          <Text
+            style={[
+              styles.ft_weight_bold,
+              styles.ft_color_purple,
+              styles.ftSize12,
+            ]}>
+            {' '}
+            Book Consult
+          </Text>
+        </Button>
+      </View>
+    </View>
+  );
+
   return (
     <View>
       {expiresOn}
       {planDetails}
       {totalSavings}
+      {buttons}
     </View>
   );
 };
