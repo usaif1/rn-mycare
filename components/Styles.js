@@ -1,12 +1,15 @@
 import {StyleSheet} from 'react-native';
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   //widths
   wd150: {
     width: 150,
   },
   wd200: {
     width: 200,
+  },
+  wd300: {
+    width: 300,
   },
   wd65: {
     width: 65,
@@ -16,14 +19,21 @@ const styles = StyleSheet.create({
   pd_r_10: {
     paddingRight: 10,
   },
+
   pd_l_10: {
     paddingLeft: 10,
   },
+
   pd_20: {
     padding: 20,
   },
+
   pd_10: {
     padding: 10,
+  },
+
+  pd_b_10: {
+    paddingBottom: 10,
   },
 
   //font size
@@ -34,13 +44,30 @@ const styles = StyleSheet.create({
   ftSize17: {
     fontSize: 17,
   },
+
+  ftSize15: {
+    fontSize: 15,
+  },
+
   ftSize10: {
     fontSize: 10,
+  },
+
+  ftSize12: {
+    fontSize: 12,
   },
 
   //font color
   ft_color_purple: {
     color: '#6155a3',
+  },
+
+  ft_color_grey: {
+    color: '#a8a8a8',
+  },
+
+  ft_color_turquoise: {
+    color: '#00c5cd',
   },
 
   //font weight
@@ -62,6 +89,14 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
 
+  mt_15: {
+    marginTop: 15,
+  },
+
+  mb_10: {
+    marginBottom: 10,
+  },
+
   //backgrounds
   bgYellow: {
     backgroundColor: 'rgba(255, 219, 55, 0.1)',
@@ -69,6 +104,10 @@ const styles = StyleSheet.create({
 
   bgPurple: {
     backgroundColor: '#e8e3ff',
+  },
+
+  bgLightCyan: {
+    backgroundColor: '#dcf4f4',
   },
 
   //flex direction
@@ -83,6 +122,9 @@ const styles = StyleSheet.create({
   jc_spacearound: {
     justifyContent: 'space-around',
   },
+  jc_spacebetween: {
+    justifyContent: 'space-between',
+  },
 
   //align items
   align_center: {
@@ -92,10 +134,13 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
   },
 
+  //border
+  border_bottom: {
+    borderBottomWidth: 1,
+  },
+
   //border radius
   br_8: {
     borderRadius: 8,
   },
 });
-
-module.exports = styles;

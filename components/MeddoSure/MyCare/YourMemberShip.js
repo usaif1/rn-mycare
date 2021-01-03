@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, View, Image} from 'react-native';
 
 //imports
-import styles from '../../Styles';
+import {styles} from '../../Styles';
 
 const YourMemberShip = () => {
   const heading = (

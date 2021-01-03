@@ -1,17 +1,17 @@
 import React from 'react';
-import {StyleSheet, Text, View, Image} from 'react-native';
+import {Text, View} from 'react-native';
 
 //imports
 import YourMemberShip from './YourMemberShip';
+import Details from './Details';
 
 const MyCare = () => {
   return (
     <View>
       <YourMemberShip />
+      <Details />
     </View>
   );
 };
 
 export default MyCare;
-
-const styles = StyleSheet.create({});
