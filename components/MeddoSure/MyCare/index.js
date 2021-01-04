@@ -5,6 +5,7 @@ import {Text, View} from 'react-native';
 import YourMemberShip from './YourMemberShip';
 import Details from './Details';
 import FAQs from './FAQs';
+import NeedHelp from './NeedHelp';
 
 const MyCare = () => {
   return (
@@ -12,6 +13,7 @@ const MyCare = () => {
       <YourMemberShip />
       <Details />
       <FAQs />
+      <NeedHelp />
     </View>
   );
 };
