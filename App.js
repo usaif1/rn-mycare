@@ -1,18 +1,16 @@
 //dependencies
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {ScrollView} from 'react-native';
 
 //imports
 import MeddoSure from './components/MeddoSure/index';
 
 const App = () => {
   return (
-    <View>
+    <ScrollView>
       <MeddoSure />
-    </View>
+    </ScrollView>
   );
 };
 
 export default App;
-
-const styles = StyleSheet.create({});
