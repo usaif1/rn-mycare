@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
   //widths
@@ -19,6 +19,9 @@ export const styles = StyleSheet.create({
   },
 
   //paddings
+  pd_0: {
+    padding: 0,
+  },
   pd_r_10: {
     paddingRight: 10,
   },
@@ -71,6 +74,9 @@ export const styles = StyleSheet.create({
 
   ft_color_turquoise: {
     color: '#00c5cd',
+  },
+  ft_color_black: {
+    color: '#000000',
   },
 
   //font weight
@@ -168,11 +174,20 @@ export const styles = StyleSheet.create({
     borderColor: '#6155a3',
   },
 
+  border_purple: {
+    borderColor: '#6155a3',
+  },
+
   //border radius
   br_8: {
     borderRadius: 8,
   },
   br_30: {
     borderRadius: 30,
+  },
+
+  //shadow
+  shadow: {
+    elevation: 0.3,
   },
 });
